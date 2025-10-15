@@ -1,7 +1,7 @@
 import sys
 
 values = [10, 20,100, 50, 101 ]
-naoDivisivel = []
+not_divisible = []
 
 def check(values):
     min = sys.maxsize
@@ -10,10 +10,10 @@ def check(values):
             min = number
     for number in values:
         if  not number % min == 0:
-            naoDivisivel.append(number)
+            not_divisible.append(number)
             
-    if naoDivisivel:
-        return f"O valor minimo é {min} e o numero não divisivel é {naoDivisivel}"
+    if not_divisible:
+        return f"O valor minimo é {min} e o numero não divisivel é {not_divisible}"
     else:
         return "Todos divisiveis"    
         
