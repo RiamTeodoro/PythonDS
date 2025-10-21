@@ -1,12 +1,14 @@
-def rearrange(arr):
-    for i in range(1, len(arr)):
-        if i % 2 == 0:
-            if arr[i] > arr[i-1]:
-                arr[i-1], arr[i] = arr[i], arr[i-1]
-            else:
-                if arr[i] < arr[i-1]:
-                    arr[i-1], arr[i] = arr[i], arr[i-1]
+arr = [ 1, 3, 2, 2, 5 ]
+
+def rearrange (arr):
+    for number in range(1, len(arr)):
+        if number % 2 == 0:
+            if arr[number] > arr[number-1]:
+                arr[number-1], arr[number] = arr[number], arr[number-1]
+        else:
+            if arr[number] < arr[number-1]:
+                arr[number-1], arr[number] = arr[number], arr[number-1]
+
     print(arr)
 
-arr = [ 1, 3, 2, 2, 5 ]
-rearrange(arr)
+    rearrange(arr)            
