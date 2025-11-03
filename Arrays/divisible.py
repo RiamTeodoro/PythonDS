@@ -18,3 +18,4 @@ def check(values):
         return "Todos divisiveis"    
         
 print (check(values))
+
