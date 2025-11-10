@@ -1,9 +1,9 @@
-number = int(input("Escolha um numero: "))
+number = int(input("choice a number: "))
 
 if number % 2 == 1:
     print("Weird")
 
-elif number % 2 == 0 and number >= 1 and n <= 15:
+elif number % 2 == 0 and number >= 1 and number <= 15:
     print("Not Weird")
     
 elif number % 2 == 0 and number <= 20:
@@ -15,4 +15,3 @@ else:
     print("Number not found")
 
 
-    

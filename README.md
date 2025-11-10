@@ -1,44 +1,54 @@
-# PythonDSDado um número inteiro n, faça as seguintes ações condicionais:
+Tarefa
 
-• Se n for ímpar, imprima Weird (Estranho)
-• Se n for par e estiver no intervalo inclusivo de 2 a 5, imprima Not Weird (Não é estranho)
-• Se n for par e estiver no intervalo inclusivo de 6 a 20, imprima Weird
-• Se n for par e maior que 20, imprima Not Weird
+O código fornecido lê dois inteiros da entrada padrão, a e b.
+Adicione código para imprimir três linhas onde:
+
+A primeira linha deve conter a soma dos dois números.
+
+A segunda linha deve conter a diferença entre eles (primeiro menos o segundo).
+
+A terceira linha deve conter o produto dos dois números.
+
+Exemplo
+
+Se:
+
+a = 3
+b = 5
+
+Imprima:
+
+8
+-2
+15
 
 Formato de entrada
 
-Uma única linha contendo um número inteiro positivo n.
+A primeira linha contém o primeiro inteiro, a.
+A segunda linha contém o segundo inteiro, b.
 
 Restrições
 
-• 1 ≤ n ≤ 100
+1 ≤ a ≤ 10¹⁰
+1 ≤ b ≤ 10¹⁰
 
 Formato de saída
 
-Imprima Weird se o número for estranho. Caso contrário, imprima Not Weird.
+Imprima as três linhas como explicado acima.
 
-Exemplo de entrada 0
+Exemplo de entrada
 
 3
+2
 
-Exemplo de saída 0
+Exemplo de saída
 
-Weird
+5
+1
+6
 
-Explicação 0
+Explicação
 
-n = 3
-3 é ímpar, e números ímpares são considerados estranhos, então imprime Weird.
-
-Exemplo de entrada 1
-
-24
-
-Exemplo de saída 1
-
-Not Weird
-
-Explicação 1
-
-n = 24
-24 é maior que 20 e é par, então não é estranho. Imprime Not Weird.
+3 + 2 = 5
+3 - 2 = 1
+3 × 2 = 6
