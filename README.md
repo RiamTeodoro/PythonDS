@@ -1,54 +1,43 @@
 Tarefa
 
-O código fornecido lê dois inteiros da entrada padrão, a e b.
-Adicione código para imprimir três linhas onde:
+O código fornecido lê dois inteiros, a e b, da entrada padrão (STDIN).
 
-A primeira linha deve conter a soma dos dois números.
+Adicione lógica para imprimir duas linhas:
 
-A segunda linha deve conter a diferença entre eles (primeiro menos o segundo).
+A primeira linha deve conter o resultado da divisão inteira, a // b.
 
-A terceira linha deve conter o produto dos dois números.
+A segunda linha deve conter o resultado da divisão com ponto flutuante, a / b.
+
+Não é necessário arredondar nem formatar nada.
 
 Exemplo
-
-Se:
 
 a = 3
 b = 5
 
-Imprima:
+• O resultado da divisão inteira 3 // 5 é 0.
+• O resultado da divisão float 3 / 5 é 0.6.
 
-8
--2
-15
+Saída:
+
+0
+0.6
 
 Formato de entrada
 
-A primeira linha contém o primeiro inteiro, a.
-A segunda linha contém o segundo inteiro, b.
-
-Restrições
-
-1 ≤ a ≤ 10¹⁰
-1 ≤ b ≤ 10¹⁰
+A primeira linha contém o número inteiro a.
+A segunda linha contém o número inteiro b.
 
 Formato de saída
 
-Imprima as três linhas como explicado acima.
+Imprima duas linhas conforme descrito acima.
 
 Exemplo de entrada
 
+4
 3
-2
 
 Exemplo de saída
 
-5
 1
-6
-
-Explicação
-
-3 + 2 = 5
-3 - 2 = 1
-3 × 2 = 6
+1.33333333333

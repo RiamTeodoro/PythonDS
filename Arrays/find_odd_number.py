@@ -9,3 +9,4 @@ def find_odd_number(nums):
     return number
 
 print(find_odd_number(arr))
+
